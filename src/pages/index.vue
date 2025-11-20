@@ -33,7 +33,7 @@
         <v-card class="pa-6" elevation="4">
           <v-list lines="three">
             <v-list-item
-              prepend-icon="mdi-web"
+              prepend-icon="$mdiWeb"
             >
               <v-list-item-title class="custom-title mb-2">Play</v-list-item-title>
               Read the <router-link to="/rules" class="custom-link">rules</router-link> or
@@ -43,7 +43,7 @@
             </v-list-item>
 
             <v-list-item
-              prepend-icon="mdi-account-group"
+              prepend-icon="$mdiAccountGroup"
             >
               <v-list-item-title class="custom-title mb-2">Social</v-list-item-title>
               <a class="custom-link" href="https://www.x.com/nichessgame">X account</a>
@@ -53,7 +53,7 @@
             </v-list-item>
 
             <v-list-item
-              prepend-icon="mdi-github"
+              prepend-icon="$mdiGithub"
             >
               <v-list-item-title class="custom-title mb-2">Free and Open Source</v-list-item-title>
               All the code and AI models are available on our 
@@ -62,7 +62,7 @@
             </v-list-item>
 
             <v-list-item
-              prepend-icon="mdi-youtube"
+              prepend-icon="$mdiYoutube"
             >
               <v-list-item-title class="custom-title mb-2">AI Games</v-list-item-title>
               Watch our AI play against itself.
